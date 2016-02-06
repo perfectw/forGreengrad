@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE91CB91C65F85B00FE386D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CB81C65F85B00FE386D /* AppDelegate.swift */; };
+		EDE91CBB1C65F85B00FE386D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CBA1C65F85B00FE386D /* ViewController.swift */; };
+		EDE91CBE1C65F85B00FE386D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CBC1C65F85B00FE386D /* Main.storyboard */; };
+		EDE91CC11C65F85B00FE386D /* forGreengrad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CBF1C65F85B00FE386D /* forGreengrad.xcdatamodeld */; };
+		EDE91CC31C65F85B00FE386D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CC21C65F85B00FE386D /* Assets.xcassets */; };
+		EDE91CC61C65F85B00FE386D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CC41C65F85B00FE386D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDE91CB51C65F85B00FE386D /* forGreengrad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forGreengrad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE91CB81C65F85B00FE386D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDE91CBA1C65F85B00FE386D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDE91CBD1C65F85B00FE386D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE91CC01C65F85B00FE386D /* forGreengrad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = forGreengrad.xcdatamodel; sourceTree = "<group>"; };
+		EDE91CC21C65F85B00FE386D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE91CC51C65F85B00FE386D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE91CC71C65F85B00FE386D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE91CB21C65F85B00FE386D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE91CAC1C65F85B00FE386D = {
+			isa = PBXGroup;
+			children = (
+				EDE91CB71C65F85B00FE386D /* forGreengrad */,
+				EDE91CB61C65F85B00FE386D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE91CB61C65F85B00FE386D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE91CB51C65F85B00FE386D /* forGreengrad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE91CB71C65F85B00FE386D /* forGreengrad */ = {
+			isa = PBXGroup;
+			children = (
+				EDE91CB81C65F85B00FE386D /* AppDelegate.swift */,
+				EDE91CBA1C65F85B00FE386D /* ViewController.swift */,
+				EDE91CBC1C65F85B00FE386D /* Main.storyboard */,
+				EDE91CC21C65F85B00FE386D /* Assets.xcassets */,
+				EDE91CC41C65F85B00FE386D /* LaunchScreen.storyboard */,
+				EDE91CC71C65F85B00FE386D /* Info.plist */,
+				EDE91CBF1C65F85B00FE386D /* forGreengrad.xcdatamodeld */,
+			);
+			path = forGreengrad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE91CB41C65F85B00FE386D /* forGreengrad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE91CCA1C65F85B00FE386D /* Build configuration list for PBXNativeTarget "forGreengrad" */;
+			buildPhases = (
+				EDE91CB11C65F85B00FE386D /* Sources */,
+				EDE91CB21C65F85B00FE386D /* Frameworks */,
+				EDE91CB31C65F85B00FE386D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = forGreengrad;
+			productName = forGreengrad;
+			productReference = EDE91CB51C65F85B00FE386D /* forGreengrad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE91CAD1C65F85B00FE386D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rs;
+				TargetAttributes = {
+					EDE91CB41C65F85B00FE386D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EDE91CB01C65F85B00FE386D /* Build configuration list for PBXProject "forGreengrad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE91CAC1C65F85B00FE386D;
+			productRefGroup = EDE91CB61C65F85B00FE386D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE91CB41C65F85B00FE386D /* forGreengrad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE91CB31C65F85B00FE386D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE91CC61C65F85B00FE386D /* LaunchScreen.storyboard in Resources */,
+				EDE91CC31C65F85B00FE386D /* Assets.xcassets in Resources */,
+				EDE91CBE1C65F85B00FE386D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE91CB11C65F85B00FE386D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE91CBB1C65F85B00FE386D /* ViewController.swift in Sources */,
+				EDE91CC11C65F85B00FE386D /* forGreengrad.xcdatamodeld in Sources */,
+				EDE91CB91C65F85B00FE386D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDE91CBC1C65F85B00FE386D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE91CBD1C65F85B00FE386D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE91CC41C65F85B00FE386D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE91CC51C65F85B00FE386D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE91CC81C65F85B00FE386D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE91CC91C65F85B00FE386D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE91CCB1C65F85B00FE386D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = forGreengrad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.forGreengrad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDE91CCC1C65F85B00FE386D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = forGreengrad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rs.forGreengrad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE91CB01C65F85B00FE386D /* Build configuration list for PBXProject "forGreengrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE91CC81C65F85B00FE386D /* Debug */,
+				EDE91CC91C65F85B00FE386D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE91CCA1C65F85B00FE386D /* Build configuration list for PBXNativeTarget "forGreengrad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE91CCB1C65F85B00FE386D /* Debug */,
+				EDE91CCC1C65F85B00FE386D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDE91CBF1C65F85B00FE386D /* forGreengrad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDE91CC01C65F85B00FE386D /* forGreengrad.xcdatamodel */,
+			);
+			currentVersion = EDE91CC01C65F85B00FE386D /* forGreengrad.xcdatamodel */;
+			path = forGreengrad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDE91CAD1C65F85B00FE386D /* Project object */;
+}
