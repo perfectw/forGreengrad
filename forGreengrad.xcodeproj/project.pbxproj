@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EDE91CB91C65F85B00FE386D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CB81C65F85B00FE386D /* AppDelegate.swift */; };
-		EDE91CBB1C65F85B00FE386D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CBA1C65F85B00FE386D /* ViewController.swift */; };
-		EDE91CBE1C65F85B00FE386D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CBC1C65F85B00FE386D /* Main.storyboard */; };
+		EDE91CBB1C65F85B00FE386D /* RSSongsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CBA1C65F85B00FE386D /* RSSongsVC.swift */; };
+		EDE91CBE1C65F85B00FE386D /* RSMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CBC1C65F85B00FE386D /* RSMain.storyboard */; };
 		EDE91CC11C65F85B00FE386D /* forGreengrad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CBF1C65F85B00FE386D /* forGreengrad.xcdatamodeld */; };
 		EDE91CC31C65F85B00FE386D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CC21C65F85B00FE386D /* Assets.xcassets */; };
 		EDE91CC61C65F85B00FE386D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91CC41C65F85B00FE386D /* LaunchScreen.storyboard */; };
+		EDE91CCE1C65F8F500FE386D /* RSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE91CCD1C65F8F500FE386D /* RSData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDE91CB51C65F85B00FE386D /* forGreengrad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forGreengrad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE91CB81C65F85B00FE386D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDE91CBA1C65F85B00FE386D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDE91CBD1C65F85B00FE386D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE91CBA1C65F85B00FE386D /* RSSongsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSongsVC.swift; sourceTree = "<group>"; };
+		EDE91CBD1C65F85B00FE386D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RSMain.storyboard; sourceTree = "<group>"; };
 		EDE91CC01C65F85B00FE386D /* forGreengrad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = forGreengrad.xcdatamodel; sourceTree = "<group>"; };
 		EDE91CC21C65F85B00FE386D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE91CC51C65F85B00FE386D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE91CC71C65F85B00FE386D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE91CCD1C65F8F500FE386D /* RSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				EDE91CB81C65F85B00FE386D /* AppDelegate.swift */,
-				EDE91CBA1C65F85B00FE386D /* ViewController.swift */,
-				EDE91CBC1C65F85B00FE386D /* Main.storyboard */,
+				EDE91CBA1C65F85B00FE386D /* RSSongsVC.swift */,
+				EDE91CCD1C65F8F500FE386D /* RSData.swift */,
+				EDE91CBC1C65F85B00FE386D /* RSMain.storyboard */,
 				EDE91CC21C65F85B00FE386D /* Assets.xcassets */,
 				EDE91CC41C65F85B00FE386D /* LaunchScreen.storyboard */,
 				EDE91CC71C65F85B00FE386D /* Info.plist */,
@@ -127,7 +130,7 @@
 			files = (
 				EDE91CC61C65F85B00FE386D /* LaunchScreen.storyboard in Resources */,
 				EDE91CC31C65F85B00FE386D /* Assets.xcassets in Resources */,
-				EDE91CBE1C65F85B00FE386D /* Main.storyboard in Resources */,
+				EDE91CBE1C65F85B00FE386D /* RSMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE91CBB1C65F85B00FE386D /* ViewController.swift in Sources */,
+				EDE91CBB1C65F85B00FE386D /* RSSongsVC.swift in Sources */,
 				EDE91CC11C65F85B00FE386D /* forGreengrad.xcdatamodeld in Sources */,
+				EDE91CCE1C65F8F500FE386D /* RSData.swift in Sources */,
 				EDE91CB91C65F85B00FE386D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,12 +151,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EDE91CBC1C65F85B00FE386D /* Main.storyboard */ = {
+		EDE91CBC1C65F85B00FE386D /* RSMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EDE91CBD1C65F85B00FE386D /* Base */,
 			);
-			name = Main.storyboard;
+			name = RSMain.storyboard;
 			sourceTree = "<group>";
 		};
 		EDE91CC41C65F85B00FE386D /* LaunchScreen.storyboard */ = {

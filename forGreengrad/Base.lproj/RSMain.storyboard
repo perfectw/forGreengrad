@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gad-Zd-vBe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="VgK-xq-2LW">
+            <objects>
+                <navigationController id="gad-Zd-vBe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mqi-4o-YSh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ASJ-al-crT" kind="relationship" relationship="rootViewController" id="3X7-rV-Lmt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nKf-9l-2hO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="151"/>
+        </scene>
+        <!--Каталог Песен-->
+        <scene sceneID="WhC-Qg-qz6">
+            <objects>
+                <collectionViewController id="ASJ-al-crT" customClass="RSSongsVC" customModule="forGreengrad" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="81o-c1-Avg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.099380387931034486" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iSM-YX-pg8">
+                            <size key="itemSize" width="177" height="153"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="RSSongCell" reuseIdentifier="RSSongCell" id="nfI-Rt-R50">
+                                <rect key="frame" x="0.0" y="64" width="177" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="177" height="153"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLB-83-Kjx">
+                                            <rect key="frame" x="44.5" y="41" width="88.5" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song with long very long name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml1-eO-Ugz">
+                                            <rect key="frame" x="29.5" y="75" width="118" height="41"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="wLB-83-Kjx" firstAttribute="centerY" secondItem="nfI-Rt-R50" secondAttribute="centerY" multiplier="2:3" id="0Hz-HA-XJB"/>
+                                    <constraint firstItem="Ml1-eO-Ugz" firstAttribute="width" secondItem="nfI-Rt-R50" secondAttribute="width" multiplier="2:3" id="7Yd-jA-0Bz"/>
+                                    <constraint firstItem="wLB-83-Kjx" firstAttribute="width" secondItem="nfI-Rt-R50" secondAttribute="width" multiplier="1:2" id="8IY-Df-buM"/>
+                                    <constraint firstItem="Ml1-eO-Ugz" firstAttribute="centerX" secondItem="nfI-Rt-R50" secondAttribute="centerX" id="8V9-Fg-0hc"/>
+                                    <constraint firstItem="Ml1-eO-Ugz" firstAttribute="centerY" secondItem="nfI-Rt-R50" secondAttribute="centerY" multiplier="5:4" id="Fq1-AE-NWB"/>
+                                    <constraint firstItem="wLB-83-Kjx" firstAttribute="centerX" secondItem="nfI-Rt-R50" secondAttribute="centerX" id="TxG-hA-4uX"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="selectedBackgroundView" destination="81o-c1-Avg" id="AJ0-su-t5s"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ASJ-al-crT" id="0HV-e5-eqv"/>
+                            <outlet property="delegate" destination="ASJ-al-crT" id="qHI-zb-7VY"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Каталог Песен" id="9n4-D4-dZw"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTl-yC-qsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="363" y="212"/>
+        </scene>
+    </scenes>
+</document>
