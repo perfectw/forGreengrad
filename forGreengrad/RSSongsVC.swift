@@ -86,19 +86,20 @@ class RSSongsVC: UICollectionViewController {
         for var i = 0; i < self.songs.count; i++ {
             if i == removmentCount + self.songs.count {
                 break }
-            if i < self.tempSongs.count-1 {
+            if i == self.tempSongs.count-1 { // no more song in new data
+                for var i2 = i+1; i2 < self.songs.count; i2++ {
+                    self.songs.removeLast()
+                    deleteNSIndex.append(NSIndexPath(forItem: i2, inSection: 0))
+                    removmentCount++
+                    break
+                }
+            }
                 if self.songs[i].id != self.tempSongs[j].id {
                     self.songs.removeAtIndex(i)
                     deleteNSIndex.append(NSIndexPath(forItem: i-1-removmentCount, inSection: 0))
                     removmentCount++
                 }
-            } else { // no more song in new data
-                for var i2 = i+1; i2 < self.songs.count; i2++ {
-                    self.songs.removeLast()
-                    deleteNSIndex.append(NSIndexPath(forItem: i2, inSection: 0))
-                    removmentCount++
-                }
-            }
+            
             j++
         }
         // add all other songs
