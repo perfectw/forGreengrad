@@ -23,9 +23,11 @@ class RSSongsVC: UICollectionViewController {
         super.viewDidLoad()
         self.collectionView!.delegate = self
         self.collectionView!.dataSource = self
-//        let tap: UITapGestureRecognizer = UI TapGestureRecognizer(target: self, action: "dismissKeyboard")
-//        self.collectionView.addGestureRecognizer(tap)
-        // pullToRefresh
+        // swipe down for background view
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: "pullToRefresh:")
+        swipeDown.direction = UISwipeGestureRecognizerDirection.Down
+        self.view.addGestureRecognizer(swipeDown)
+        // swipe down for collectionView
         self.refreshControl = UIRefreshControl()
         self.refreshControl.attributedTitle = NSAttributedString(string: "Обновить")
         self.refreshControl.addTarget(self, action: "pullToRefresh:", forControlEvents: UIControlEvents.ValueChanged)
